@@ -1,0 +1,746 @@
+<html>
+    <head>
+        <title>Cloud Computing</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="Computer.html">Definations</a></li>
+            <li><a href="shortForm.html">Abbrevaitions</a></li>
+            <li><a href="CloudCom.html">Cloud Computing</a></li>
+            <li><a href="ComCons.html">Computer Construction MCQs</a></li>
+            <li><a href="ComConsP.html">Computer Construction Practical</a></li>
+        </ul>
+
+        <h1>Cloud Computing</h1>
+
+        <h5>Cloud Computing:</h5>
+        <p>Cloud Computing is a technology that allows you to store, manage or process data on remote servers hosted on the internet instead of on your local computer or personal server.</p>
+        <p>In simple words - instead of keeping everything on your computer, you use powerful computers (called servers) owned by companies like Amazon, Google, or Microsoft. Which you can access anytime via the Internet.</p>
+
+        <h5>Main features/characteristics of Cloud Computing:</h5>
+        <p>1: On-Demand Service: Users can access computing resources (like storage, applications, or servers) whenever they need without human interactions.</p>
+        <p>2: Broad Network Access: Accessible from anywhere using the Internet. e.g; You can open your Google Drive files from any device.</p>
+        <p>3: Resource Pooling: The cloud provider uses shared resources (servers, storage, networks) to serve multiple users at once. e.g; Many users share the same physical data center, but their data remains separate & secure.</p>
+        <p>4: Scalability: You can easily increase or decrease your usage.</p>
+        <p>5: Measured Service: You pay only for what you use (like electricity).</p>
+        <p>6: Multi-Tenancy: Multiple customers share the same physical resources but have isolated enviroments for privacy & security. e.g; Many companies use MS 365, but each has its own separate data & access.</p>
+        <p>7: Resiliency: It means the ability of a cloud system to recover quickly from failures such as hardware crashes, network issues, or power outages. The whole system is pre-configured so that as soon as a resource fails, the processing is automatically handed over to the redundant resource.</p>
+
+        <h5>Types of Cloud Computing:</h5>
+        <p>1: Public Cloud: Open for everyone (e.g; Google Cloud, AWS)</p>
+        <p>2: Private Cloud: Used by one organization only.</p>
+        <p>3: Hybrid Cloud: Combination of public & private clouds.</p>
+
+        <h5> Cloud Services Models:</h5>
+        <table>
+            <tr>
+                <th>Model</th>
+                <th>What It Offers</th>
+                <th>Example</th>
+            </tr>
+            <td><b>IaaS </b>(Infrastructure as a service)</td>
+            <td>Provides virtual machines, storage & networking</td>
+            <td>AWS EC2, Google Compute Engine</td>
+            </tr>
+            <tr>
+                <td><b>PaaS </b>(Platform as a service)</td>
+                <td>Provides enviroment for app development</td>
+                <td>Googel App Engine, Heroku</td>
+            </tr>
+            <tr>
+                <td><b>SaaS </b>(Software as a service)</td>
+                <td>Provides software via the internet</td>
+                <td>Gmail, Microsoft 365, Zoom</td>
+            </tr>
+        </table>
+
+        <h5>Identity as a Service (IDaaS):</h5>
+        <p>It's a cloud-based service that provides Identity & Access Management (IAM) functions for users.</p>
+        <p>In simple words, IDaaS helps organizations verify who you are & control what you can access securely from the cloud. e.g; You log in to your Gmail, & Google verifies your account credentials.</p>
+        <h3>Figure is in Lec 71</h3>
+        <p><b>On-premises mean: </b> Everything is installed & runs locally on your own computers or servers while, Cloud is hosted on internet (remote servers).</p>
+        <p>Single Sign On (SSO) software is installed over authentication server. In which one time authentication required. Before connecting to application servers, the user connects with the authentication server to obtain a secure ticket.</p>
+        <p>When the user leaves the company, only the user's login on authentication server is needed to be disabled to block the user's access to all other application servers.</p>
+        <p>A few examples of IDaaS providers for on-premises & cloud applications such as Ping IDaaS & PasswordBank IDaaS.</p>
+        <p>IDaaS - OpenID: It allows the user to login multiple websites using a single account (your Google or Facebook).</p>
+        <p>In simple words, OpenID lets you sign into different websites without creating a new username & password each time. e.g; You visit a new webiste & it says: "Login with Google or Login with Facebook". When you click that, OpenID (or a similar system) is being used in the background to verify your identity from Google or Facebook instead of creating a new account.</p>
+        <p>Why use OpenID:
+            <ul>
+                <li>Avoid too many user names & passwords.</li>
+                <li>Account management is difficult otherwise.</li>
+                <li>Avoid filling long forms for creating logins again & again.</li>
+                <li>OpenID is not controlled by any organization or person.</li>
+                <li>There are more than 1 billion OpenID accounts which are accepted by over 50,000 websites.</li>
+            </ul>
+        </p>
+
+        <h5>Advantages:</h5>
+        <ul>
+            <li>Cost-efficient (no need to buy hardware)</li>
+            <li>Accessible anywhere</li>
+            <li>Automatic updates & maintainance</li>
+            <li>Data backup & recovery</li>
+        </ul>
+
+        <h5>Disadvantages:</h5>
+        <ul>
+            <li>Requires internet connection</li>
+            <li>Possible data security concerns</li>
+            <li>Limited control over infrastructure</li>
+        </ul>
+
+        <h5>Roles & Boundaries in Clouds:</h5>
+        <p><b>Roles </b>define <i>who does what</i></p>
+        <p><b>Boundaries </b> define <i>who controls what part </i>of the system</p>
+
+        <h4>Roles in Cloud Computing:</h4>
+        <h5>1: Cloud Service Provider (CSP)</h5>
+        <p>The company that owns & manage the Cloud infrastructure. Their responsibilities are: Maintain data centers & servers, provide networks, storage & computing resources. e.g; Amazon (AWS), Microsoft (Azure), Google (GCP).</p>
+        
+        <h5>2: Cloud Consumer (User & Client)</h5>
+        <p>The individual or organization that uses the cloud service. Responsibilities are: Manage data, applications & access rights. Follow security policies & pay for the resources used. e.g; we are using Google Drive or a company using AWS Servers.</p>
+
+        <h5>3: Cloud Auditor</h5>
+        <p>An independent person or organization that checks if the cloud services are secure, reliable & complaint. e.g; A firm verifying that a cloud provider meets government security standards.</p>
+
+        <h5>4: Cloud Carrier</h5>
+        <p>The network provider that connects users to the cloud. e.g; Internet service providers (like PTCL, Nayatel) that deliver connectivity between Cloud Consumer & CSP.</p>
+
+        <h5>5: Cloud Broker</h5>
+        <p>Acts as a middleman between the provider & consumer. Help users choose the best service or combine multiple services. e.g; A company that manages cloud usage for different department.</p>
+
+        <h4>Boundaries in Cloud Computing</h4>
+        <table>
+            <tr>
+                <td>Type of Boundary</td>
+                <td>Description</td>
+            </tr>
+            <tr>
+                <td><b><i>Consumer Boundary</i></b></td>
+                <td>Everything the customer controls - data, apps, user access.</td>
+            </tr>
+            <tr>
+                <td><b><i>Provider Boundary</i></b></td>
+                <td>Everything the provider controls - physical servers, storage, network infrastructure.</td>
+            </tr>
+            <tr>
+                <td><b><i>Network Boundary</i></b></td>
+                <td>The connection between consumer & provider - usually the internet or VPN link.</td>
+            </tr>
+        </table>
+
+        <h5>Data Storage in Cloud: Network Storage</h5>
+        <p>In cloud computing, data storage means keeping data on remote servers instead of local hard drives. One of the main methods called Network Storage; where data is saved on a dedicated storage device (server) that's connected to a network not inside your own computer. This allows multiple users & systems to access & share the same files. In the cloud, network storage is managed by the cloud provider (like AWS, Google cloud or Azure)</p>
+        <p>There are a number of cloud storage providers which offer file storage, sharing & synchronization for free as well as paid. Such as:</p>
+        <ul>
+            <li>Carbonite</li>
+            <li>pCloud</li>
+            <li>Dropbox</li>
+            <li>ElephantDrive</li>
+        </ul>
+
+        <h5>Types of Network Storage:</h5>
+        <table>
+            <tr>
+                <td><b>Type </b></td>
+                <td><b>Description </b></td>
+            </tr>
+            <tr>
+                <td><b><i>NAS (Network Attached Storage) </i></b></td>
+                <td> File-level storage system accessible over LAN/WAN. Works like a shared folder. e.g; Amazon EFS, Google filestore</td>
+            </tr>
+            <tr>
+                <td><b><i>SAN (Storage Area Network) </i></b></td>
+                <td> Block-level storage faster, used for database & virtual machines. e.g; AWS EBS, Azure managed Disks.</td>
+            </tr>
+        </table>
+
+        <h5>Advantages: </h5>
+        <ul>
+            <li>Scalability</li>
+            <li>Relaibility</li>
+            <li>Affordable on usage based</li>
+            <li>Can be accessible from anywhere</li>
+        </ul>
+        
+        <h5>Disadvantages: </h5>
+        <ul>
+            <li>Performance: Because of Internet based access, the cloud storage can never be as fast as SAN/NAS local based storage.</li>
+            <li>Security: Not all the users may be able to trust the cloud provider for user data.</li>
+            <li>Data Orphans: The user has trust issues regarding data deletion policies of the provider.</li>
+        </ul>
+
+        <h5>Cloud Based Backup Systems:</h5>
+        <p> The term backup refers to the copying of (data or database) files to a secondary site for preservation in case of device or software failures.</p>
+
+        <h5>Advantages: </h5>
+        <ul>
+            <li>The data is backed up in encrypted form.</li>
+            <li>Backup can be performed on the convenience of user (daily, weekly or monthly)</li>
+            <li>The user can easily retrieve the backup files from the cloud.</li>
+        </ul>
+
+        <h5>Disadvantages: </h5>
+        <ul>
+            <li>Limitations: Due to security concerns, critical data backup is preferably stored on local storage.</li>
+            <li>Long term cost</li>
+        </ul>
+
+        <h5>Data Communication:</h5>
+        <p>- Exchange of data over some transmission medium between two devices.</p>
+        <p>- The following factors are essential for data communication:</p>
+        <p>1: Data must be delivered to correct destination</p>
+        <p>2: Data must not be altered during transmission.</p>
+        <p>3: There must be timely delivery of the data.</p>
+        <p>- Components:</p>
+        <p>i: Message: The data to be sent; can be text, pictures, audio and video.</p>
+        <p>ii: Sender</p>
+        <p>iii: Receiver</p>
+        <p>- Transmission medium: The physical path through which message travels from sender to receiver.</p>
+        <p>- Protocol: The set of agreed-upon communication rules between sender and receiver devices. Two devices can be connected but not communicating without protocol.</p>
+        <p>- Data Representation:</p>
+        <p>i: Text: Represented by bit pattern called code e.g; Unicode & American Standard Code for Information Interchange (ASCII).</p>
+        <p>ii: Numbers: Directly converted binary of the number. ASCII is not used to represent numbers.</p>
+        <p>iii: Images: Sent as binary patterns. Image is represented by a matrix of pixels is assigned a bit pattern on the basis of color.</p>
+        <p>iv: Audio: A continous stream of data, different from text, numbers & images.</p>
+        <p>v: Video: Can be continuous stream or a sequence of image combinations.</p>
+        <p>- Data Flow:</p>
+        <p>i: Simplex: Unidirectional communication whether one of the sender or receiver device can transmit. e.g; keyboard, monitor etc.</p>
+        <p>ii: Half Duplex: Both devices can communicate but one at a time. The entire capacity of the transmission medium is available to the transmitting device. e.g; Walkie-talkies</p>
+        <p>iii: Full Duplex: Both devices can send and receive at the same time. The transmission medium should provide separate paths/channels for the transmission of each device. e.g; Telephone</p>
+
+        <h5>Computer Networking lec-11</h5>
+        <p>- A network is a collection of computers & devices connected together through transmission media.</p>
+        <p>- Host: Large computers, desktops, laptops, cellular phone or security system.</p>
+        <p>- Connecting devices:</p>
+        <p>i: Router: A device which connects the network with other networks.</p>
+        <p>ii: Switch: A device which connects devices within the network.</p>
+        <p>iii: Modem: A device which changes the form of data (modulates-demodulates).</p>
+        <p>- Performance:</p>
+        <p>i: Throughput ii: Delay</p>
+        <p>- Physical Structures:</p>
+        <p>A link can be dedicated link (point to point) or shared among devices (multipoint).</p>
+        <p>- Physical Topology:</p>
+        <p>i: Bus: A multipoint topology in which one long cable is used as a network backbone.</p>
+        <p>Advantage: Ease of Installation & requires less cabeling than mesh & star.</p>
+        <p>Disadvantage: Difficult to extend, signals drops along the length of cable results in limited no of connections, breaking of backbone cable isolates the network segments & introduces noise.</p>
+        <p>ii: Ring: The devices are connected in the form of ring. Each device acts as repeater.</p>
+        <p>Advantage: Easy to expand & alter the network.</p>
+        <p>Disadvantage: Failure of a single device can disable the entire network, transmitting device needs to retain the token signal to perform transmission which slows down the data rate.</p>
+        <p>iii: Mesh: Every device has a dedicated point to point link to every other device.</p>
+        <p>Advantage: If one link cuts among network so other devices aren't affects.</p>
+        <p>Disadvantage: Bulk of cabling required.</p>
+        <p>iv: Star Topology: All devices are connected to a central device. Unlike Mesh, there is no direct traffic b/t any two devices but through the central device such as Hub.</p>
+        <p>Advantage: Requires only one I/O port in each device as compared to Mesh.</p>
+        <p>Disadvantage: If the central device fails, the whole network fails.</p>
+        <p>- Network Types:</p>
+        <p>- Local Area Network (LAN): It is privately owned network & has a scope of an office, building or a campus. A LAN can even extend throughout a company.</p>
+        <p>Each host in a LAN has a unique Identifier or address.</p>
+        <p>The communication packets b/t any two hosts in a LAN contain the source & destination host addresses.</p>
+        <p>Media type: wired/wireless, twisted pair/fiber, radio, infrared.</p>
+        <p>Topologies: Bus, Star, Mesh, Ring, Tree</p>
+        <p>Bit rate: From 1Mbps to 1Gbps</p>
+        <p>Key features: Unicast, Broadcast & Multicast.</p>
+        <p>- Wide Area Network (WAN): A network that spans large geographical area such as town, cities, states or even countries. Usually interconnects multiple LANs.</p>
+        <p>Unlike LAN which is owned by the user organization, a WAN is normally created & run by communication companies. It is leased to the user organizations.</p>
+        <p>Network Types:</p>
+        <p>i: Point-to-Point: Connecting two devices through wired or wireless media. e.g; connecting two LANs to form a private internet or internetwork of a company.</p>
+        <p>ii: Switched: A network with more than two ends. It is a combination of several P2P WANs connected by switches.</p>
+        <p>- Metropolitan Area Network (MAN): It is a computer network; covering a large geographical area bigger than LAN & smaller than WAN.</p>
+        <p>Diameter: 5 to 50km, several buildings or a whole city.</p>
+        <p>- Internet:</p>
+        <p>It is a network of thousands of interconnected networks.</p>
+        <p>TCP/IP Protocol: (Transmission contol protocol over Internet Protocol)</p>
+        <p>TCP was proposed in 1973 to ensure a relaiable, end to end & error free transmission control.</p>
+        <p>TCP/IP consist of layers.</p>
+        <p>i: Physical Layer: Deals with transmission of bits into signal and transmission of signals over the link.</p>
+        <p>ii: Data Link: Creates the frames of data; each frame contains the data & is addressed with the MAC address of the receiving & sending device.</p>
+        <p>iii: Network Layer: Responsible for host to host communication through their IP addresses & related protocols. No control for error. Packets are called Datagram.</p>
+        <p>iv: Transport Layer: Responsible for transporting message from application program running over source host to corresponding application program on destination host.</p>
+        <p>Transport Layer main protocol are:</p>
+        <p>i: Transmission Control Protocol (TCP)</p>
+        <p>ii: User Datagram Protocol (UDP)</p>
+        <p>Works on port no on correspondig hosts.</p>
+        <p>TCP provides flow control, congestion control & error control as it is a connection oriented protocol. TCP message is segment.</p>
+        <p>UDP is light weight & is not connection oriented. UDP message is a datagram.</p>
+        <p>- Application Layer: Consist of programs running on two hosts & exchanging messages.</p>
+        <p>Applications use these protocols for communication HTTP, FTP, SMTP etc.</p>
+        <p>- IP Addressing: The identifier used in Network Layer of TCP/IP suit is the address of the internet connection of receiver & sender devices. IPv4 is 32 bit while IPv6 is 128 bits.</p>
+        <p>The address is infact of the connection & may change when the device is moved to another network. A device can have two IP addresses if it has two connections with the internet.</p>
+        <p>IPv4 consist of 4 bytes decimal numbers. e.g; 192.168.0.1</p>
+        <p>ICANN (Internet Corporation for Assigned Names & Numbers) allocates/assigns IP address to ISPs & large organizations. Smaller organizations can get IP addresses from ISPs.</p>
+        <p>The IP address consist of a prefix part (the Network ID) & postfix part (the Host ID or the Subnet).</p>
+        <p>- Classification of IPv4 addresses:</p>
+        <p>Class A: 8 bits for Network ID. First byte 0 to 127</p>
+        <p>Class B: 16 bits for Network ID. First byte 128 to 191</p>
+        <p>Class C: 24 bits for Network ID. First byte 192 to 223</p>
+        <p>Class D: Used for multicasting. No prefix or Network ID. First byte 224 to 239</p>
+        <p>Class E: Reserved for future use. First byte 240 to 255</p>
+        <p>- DHCP (Dyanamic Host Configuration Protocol) used to automatically assign addresses from an acquired block of IP address.</p>
+        <p>Organization use private IP addressing for the LAN devices & can use Network Address Translation (NAT) mechanism for having a single or a few registered global IP addresses for internet communication.</p>
+        <p>NAT enabled router replaces the local address of sending device with the registered global IP address before sending the packets on internet.</p>
+        <p>- Some iportant changes in IPv6</p><p>
+        <p>No more NAT (Network Address Translation)</p>
+        <p>No more private address collision.</p>
+        <p>Built in authentication & privacy support.</p>
+        <p>Easier administration (no more DHCP required)</p>
+        <p>Simplified routing.</p>
+        <p>- There are three categories of IPv6 addresses.</p>
+        <p>i: Unicast: For a single connection</p>
+        <p>ii: Multicast: For set of interfaces, one message transmitted to all.</p>
+        <p>iii: Anycast: For a group of interfaces, one message transmitted to a single interface.</p>
+        <p>- Ethernet: A popular LAN technology for data link & physical layers. IEEE (Institute for Electrical & Electronic Engineers) developed an Ethernet standard known as IEEE Standard 802.3</p>
+        <p>TCP/IP doesn't specify any protocol for data link & physical layers. It accepts all the protocols working at these layers.</p>
+        <p>Ethernet was developed in 1970s & since then it has gone through four generations.</p>
+        <p>i: Data rate 10Mbps</p>
+        <p>ii: Connectionless</p>
+        <p>iii: No flow control</p>
+        <p>iv: No error control</p>
+        <p>v: No retransmission & acknowledgement</p>
+        <p>vi: Hence unreliable like IP & UDP</p>
+        <p>vii: Uses link layer addresses (the 48 bit MAC Address)</p>
+        <p>viii: CRC is present but corrupted frames are simply discarded by receiver</p>
+        <p>ix: Each frame is of 64-1518 bytes of length including 46-1500 bytes of data</p>
+        <p>x: CSMA/CD is used</p>
+        <p>Unicast address: Significant bit of first byte is 0.</p>
+        <p>Multicast address: Significant bit of first byte is 1. All 48 bits are 1s.</p>
+        <p>- Standard Ethernet types:</p>
+        <p>i: Bridged</p>
+        <p>ii: Switched</p>
+        <p>iii: Full duplex switched</p>
+        <p>- Fast Ethernet: Next generation of Standard Ethernet with speed of 100Mbps. Same 48 bit addressing. Uses star topology for connecting three or more devices using Switch or Hub.</p>
+        <p>- Gigabit Ethernet: Speed is 1Gbps. Star topology using Hub or Switch. Upto 5km range.</p>
+        <p>- 10 Gigabit Ehternet: 10Gbps Speed. Increasing the range to tens of km.</p>
+        <table>
+            <tr>
+                <td><b>Wired LAN</b></td>
+                <td><b>Wireless LAN</b></td>
+            </tr>
+            <tr>
+                <td>Medium Wires</td>
+                <td>Medium Air</td>
+            </tr>
+            <tr>
+                <td>Broadcasting & Multicasting possible</td>
+                <td>All devices are Broadcasting</td>
+            </tr>
+            <tr>
+                <td>Physical connection to Network</td>
+                <td>No physical connection</td>
+            </tr>
+            <tr>
+                <td>Host are connected through link layer switch</td>
+                <td>No link layer switch exists</td>
+            </tr>
+            <tr>
+                <td>Connection to other network through router</td>
+                <td>Connection to other network thoruhg access point (a device that connects a wireless & wired networks)</td>
+            </tr>
+        </table>
+        <p>CSMA/CA is used in wireless network. IEEE 802.11</p>
+        <p>- Bluetooth: A wireless LAN technology that provides short distance connectivity.</p>
+        <p>IEEE standard 802.15 covers the Personal Area Network (PAN) using Bluetooth for an area covering a room.</p>
+        <p>- WiMAX: Stands for worldwide interoperability for Microwave Access. Provide wireless access to internet for: Homes & Offices when the wired access is either not available or is expensive.</p>
+        <p>- Types of WiMAX:</p>
+        <p>i: Fixed WiMAX: Required the Installation of antennas to receive & send data from the base station of internet provider.</p>
+        <p>ii: Mobile WiMAX: Users move from one place to another while connected to the base station of internet provider.</p>
+        <p>WiMAX is the result of IEEE 802.16 project. It is a standard for wireless WAN or MAN while 802.11 Standard is for wireless LAN. Full duplex cummunication.</p>
+        <p>- Cellular Network: It's a Radio based technology. Radio waves are electromagnetic waves propagated by antennas</p>
+        <p>1G: Invented around 1980. Based upon analog technology.</p>
+        <p>2G: Invented in 1991, implemented first time in Finland.</p>
+        <p>Technologies: Global System for Mobile (GSM), General Packet Radio Service (GPRS), Code Division Multiple Access (CDMA) & Enhanced Data Rules for GSM Evolution (EDGE)</p>
+        <p>3G: From 2000</p>
+        <p>Technologies: CDMA, WLAN, Bluetooth, Universal Mobile Telecommunication System (UMTS).</p>
+        <p>4G: Since 2010</p>
+        <p>Technologies: Long Term Evolution (LTE) Standard based on the GSM/EDGE & UMTS</p>
+        <p>- Connecting Devices: These are the devices used to connect</p>
+        <p>i: Hosts to forms LANs</p>
+        <p>ii: LANs to implements WANs & internet</p>
+        <p>- The class of each device depends upon the layers on which it operates. That is:</p>
+        <p>i: Hub: Physical layer. It's a multiport (when it gets any packet from one port so it will regenrate that packet in all other ports) repeater device used in star topology. e.g; The hub repeats the signal received from any port A to all other ports except the port A (Broadcasting). Hub is a Physical layer device. It doesn't have MAC address & can't access the data-link layer (MAC address) of the data frames.</p>
+        <p>ii: Switch: Covers Physical layer, Data-link layer. It's multiport bridge device (A bridge joins two logicla segments of the same network & intelligently forwards the packets from one segment to other on the basis of destination MAC address & forwarding table). Switch works by maintaining a switching table & forwarding the packets received from Port A only to destination Port B. Switching table consists of MAC address of the hosts arranged according to the port numbers to which they are attached. Switches perform learning to fill the switching table by reading the MAC address of sending device for each port. Broadcast packets are forwarded to all ports.</p>
+        <p>iii: Router: Covers Network layer (checks the IP addresses of source & destination, connects multiple networks to form bigger networks), Data-link layer (checking the MAC addresses of source & destination), Physical layer (regenrating the signals). Router contains both MAC address & IP address. Change the source & destination MAC address when it forwards the packets.</p>
+        <p>- Types of Routing:</p>
+        <p>i: Unicast: A router forwards the packet to only one of the attached networks.</p>
+        <p>ii: Multicast: A packet is forwarded to multiple attached networks.</p>
+        <p>- Three Tiers of worldwide connectivity:</p>
+        <p>i: Tier 1: Consist of large scale international connectivity providers.</p>
+        <p>ii: Tier 2: Consists of large regional ISPs connected to tier 1.</p>
+        <p>iii: Tier 3: Consists of local ISP providers connected to tier 2.</p>
+        <p>Note: The cloud providers & users connect directly to tier 3 providers.</p>
+        <p>VPN: It creates a secure connection b/t a remote device & the corporate servers over the internet as if the device is inside the LAN.</p>
+        <p>- virtualization: It's the process of creating a Virtual (not physical) version of something such as a computer system, storage device, network or operating system.</p>
+        <p>In other words, it allows one physical machine (computer or server) to run multiple virtual machines (VMs), each behaving like a separate computer.</p>
+        <p>- Virtualization implementation levels:</p>
+        <p>i: Instruction Set Architecture level</p>
+        <p>ii: Hardware Abstruction Level</p>
+        <p>iii: Operating System Level</p>
+        <p>iv: Library Support Level</p>
+        <p>v: Application Level</p>
+        <p>- Three classes of VM architecture:</p>
+        <p>i: Hypervisor Architecture: Hardware level virtualization, also called the bare metal virtualization. e.g; Xen, VMware</p>
+        <p>Hypervisor transforms the physical hardware into virtual hardware.</p>
+        <p>ii: Paravirtualization Architecture</p>
+        <p>iii: Full-Virtualization Architecture: The guest OS or the VMs OS doesn't know that it is installed on a VM.</p>
+        <p>- Virtual Clusters: It consists fo several VMs hosted on a physical cluster. The VMs are interconnected through a virtual network across multiple physical networks. The nodes can be physical or virtual machines & can grow or shrink dynamically.</p>
+        <p>- VM Migration: VMs can be migrated from one host to another for: Server load balancing, Server consolidation, Remedy for failover hosts & VMs & Remedy for resource shortage for a VM.</p>
+        <p>- A VM can be in any of the following states:</p>
+        <p>i: Powered-off</p>
+        <p>ii: Suspended</p>
+        <p>iii: Paused</p>
+        <p>iv: Powered-On</p>
+        <p>- The following options are available for VM migration:</p>
+        <p>i: Cold Migration: The VM has to be powered off before migration</p>
+        <p>ii: Warm Migration: Suspended VM migration</p>
+        <p>iii: Live Migration: For powered-on VM with zero downtime & full availability</p>
+        <p>- A VM is made of two basic components:</p>
+        <p>i: VM State: The processor & RAM contents</p>
+        <p>ii: Virtual Hard Disk: Residing on network storage or on host's hard disk</p>
+        <p>- Live migration of VM means zero downtime of OS, connectivity & application running on the VM</p>
+        <p>- VPN: It extends a private network over public network & enables the users to communicate as if their devices are directly connected to the private network. It creates a sevured & encrypted network over a less secured network such as the internet.</p>
+        <p>- VPN is based upon IP tunneling. IP tunneling or port forwarding is the transmission of private network packets over a public network (Internet) as the payload of public network packets such that the routing devices do not come to know about this.</p>
+        <p>VPN although provide secured connectivity to extend a private network but the implementation may have performance issues. VPN is implementable over Layer 1-3.</p>
+        <p>- Types of VPN:</p>
+        <p>i: Remote-access: A VPN client on user's device connected to VPN gateway of the enterprise.</p>
+        <p>ii: Site-to-Site: Establishes a VPN between two netwrorks over the Internet by using VPN gateway.</p>
+        <p>VPN technology provides access to cloud resources. The VPN gateway exists in the cloud with a secure link provided by the cloud provider.</p>
+        <p>- Network Virtualization: Multiple virtual Network Interface Cards (vNIC) are linked to physical NIC or pNIC through a virtual Switch (vSwitch) inside a hypervisor.</p>
+        <h3>Diagram in Lec 39</h3>
+        <p>A virtual network consists of virtual nodes & virtual links. Network virtualization establishes the coexistence of multiple virtual networks</p>
+        <p>- Technologies:</p>
+        <p>i: Virtual Local Area Network (VLAN): Logically goruping the hosts with common interest into a single broadcasting domain.</p>
+        <p>ii: Virtual Private Networks (VPN): A dedicated communication network of enterprises & users by using tunneling over public networks (Internet).</p>
+
+        <h1>Final Term</h1>
+        <h4>Cloud Security Threats:</h4>
+        <p>Virtualization Attack: In Cloud Computing, virtualization attacks can happen because cloud users are given administrative control over their virtual machines and many users share the same physical hardware (called Multi-Tenancy). Becuase of this, an attacker may be able to break through the virtual machine and affect the real physical server underneath.</p>
+        <p>Another reason for virtualization attacks is VM sprawl, means having many virtual machines that are not properly managed or updated. If the operating system on a VM is not regularly patched, it becomes easy for attackers to exploit security weaknesses.</p>
+        <p>Virtualization attacks can also occur when VM-Aware malware is installed. This type of malware is specially designed to detect virtual machines and then attack the hypervisor, which control all VMS. If the hypervisor is compromised, all virtual machines become unsafe.</p>
+        <p>Hypervisor: It allows one physical machine to run multiple virtual machines safely and efficiently.</p>
+        <p><b>Following are possible sources in which physical server may be compromised.</b></p>
+        <p><b>a: </b>An attacker pretends to be a legitimate cloud user by guessing or cracking a weak password. Once logged in, the attackers can misuse the virtual machine.</p>
+        <p><b>b: </b>Sometimes a user who is legitimately registered on the cloud platform may intentionally act in a harmful way. Because they can use their permissions to attack the virtual enviroment or underlying hardware.</p>
+        <h4>Overlapping Trust Boundaries:</h4>
+        <p>When a company or user moves their data to the cloud, they are not longer the only one responsible for keeping that data safe. Now, the cloud provider also becomes responsible for the availability, privacy (confidentiality), & correctness (integrity) of the data.</p>
+        <p>This means the user must trust the cloud provider, so the trust boundary becomes larger and includes someone outside the organization. Because of this, new security risks can appear.</p>
+        <h4>Flawed Implementation:</h4>
+        <p>Sometimes, cloud services are not implemented perfectly. This can happen due to wrong configuration, software bugs, or hardware weaknesses in the cloud provider's system.</p>
+        <p>These flaws can cause unexpected problems, such as:</p>
+        <p>1. Security Risks: Attackers can take advantage of weaknesses in the cloud provider's software or hardware. This can threaten data confidentiality, integrity, or availability.</p>
+        <p>2. Operational Problems: Implementation flaws may cause a virtual machine (VM) to crash. If a VM crashes, all the services running on that VM are affected, causing downtime for users.</p>
+        <p>Example: Imagine a cloud server (VM) is running multiple services: Service A, Service B, & Service C.</p>
+        <ul>
+            <li>Service A has a flaw or bug in its implementation.</li>
+            <li>If someone sends a special message that triggers this flaw, Service A can crash the VM.</li>
+            <li>Because all services share the same VM, Service B and Service C will also stop working.</li>
+            <li>An attacker can exploit this flaw intentionally to cause distruption or downtime for multiple services.</li>
+        </ul>
+        <p>Note:- Multiple Services on a single VM: Service A (Web Server), Service B (Database) & Service C (File storage service).</p>
+        <h4>Disparity of Computer Security Policy:</h4>
+        <p>A computer security policy is a set of rules and procedures that an organization uses to protect its computers, data & IT resources. When a company uses a cloud provider or outsources IT services, there may be a mismatch between the company's security rules & the cloud provider's security rules.</p>
+        <ul>
+            <li>Policy Mismatch: The security policies of the consumer (company) and the cloud provider may not be the same. This can create security gaps if the provider's measures do not meet the consumer's requirements.</li>
+            <li>Limited Control: In cloud services, consumers often don't have full administrative privileges. This makes it hard for the consumer to implement their own security rules on cloud systems.</li>
+            <li>Standardization Challenges: Because of policy mismatch & limited control, it is difficult to standardize security for both the consumer's data & the IT resources leased in the cloud.</li>
+        </ul>
+        <h4>Contracts & SLA in Cloud Computing:</h4>
+        <p>When using cloud services, contracts & SLA (Service Level Agreements) define the responsibilities of both the cloud provider & the consumer.</p>
+        <ul>
+            <li>Consumer Assets on Provider's Cloud: Sometimes the comsumer deploys its own applications or solutions on the cloud provider's infrastructure. This means the consumer's data and apps are on the provider's hardware.</li>
+            <p>Question Arises: If there is a security breach or system failure, who is responsible?</p>
+            <p>Answer: If the breach/failure is caused by the consumer's application or configuration, the consumer is responsible.</p>
+            <p>If the breach/failure is caused by the cloud provider's hardware, software, or infrastructure, the provider is responsible.</p>
+            <p>Therefore, a clear SLA is essential to define who is liable in different scenarios.</p>
+            <li>Disparity of Security Policies: The consumer may want to apply its own security rules, while the provider keeps administrative control of the cloud system. This creates a policy mismatch, which must be addressed in the contract.</li>
+        </ul>
+        <h4>Risk Management:</h4>
+        <p>Cloud consumers should regularly follow a cyclic (repeating) risk management process to identify & handle possible threats & challenges before & after adopting cloud services. This process should be an important part of the organization's overall risk management strategy.</p>
+        <p>Three stages of Cloud Risk Management:</p>
+        <ul>
+            <li>1. Risk Identification: Identify the weak points (vulnerabilities) in the cloud enviroment being adopted.</li>
+        </ul>
+        <h4>Trust Issue In Cloud Computing:</h4>
+        <p>In Cloud Computing, trust depends mainly on privacy & security. If privacy & security are weak, trust in the cloud provider decreases.</p>
+        <ul>
+            <li>Privacy: It means keeping personal or organizational data confidential. Only authorized people should be able to access the data.</li>
+            <p>Example: User records, financial data, personal information.</p>
+            <li>Security: It means protecting data from threats. It ensures:
+                <ul>
+                    <li>Confidentiality: data is kept secret.</li>
+                    <li>Integrity: data is not changed without permission.</li>
+                    <li>Availability: data accessible when needed.</li>
+                </ul>
+            </li>
+            <li>Trust: It's the confidence of the cloud consumer that the provider will protect data properly. Trust is built when: Strong security controls exist & privacy of data is respected.</li>
+        </ul>
+        <h4>Privacy Issues of Cloud Computing:</h4>
+        <ul>
+            <li>Lack of User Control: The user has less control because the data is stored on the cloud provider's server, not on the users's own computer.</li>
+            <li>Lack of Training & Expertise: Many users & organizations do not fully understand cloud security settings. Due to this lack of knowledge, this may misconfigure privacy settings, which can expose data to unauthorized people.</li>
+            <li>Possibility of Secondary (Unauthorized) use of Consumer Data: Cloud provider may use costumer data for other purpose, such as analysis, marketing or service improvement. Sometimes data may be accessed without ther user's clear permission, which creates privacy risks.</li>
+            <li>Legal Complaince: Cloud data may be stored in different countries, each with differetn laws. This can create problems in following local privacy & data protection laws. e.g; Data stored outside the user's country.</li>
+        </ul>
+        <h4>Securtiy of Issues of Cloud Computing:</h4>
+        <ul>
+            <li>Overlapping Security Boundaries: Multiple users share the same physical resources. Because of this sharing, securtiy boundaries can overlap. e.g; Multiple companies using the same cloud server.</li>
+            <li>Unauthorized Access: If proper authentication & security controls are not used, hackers or unauthorized users may access cloud data or services. Weak passwords or stolen login credentials.</li>
+            <li>Lack of Interoperability of Security Policies: Different cloud providers use different security rules & standards, when moving data or services b/t clouds, security policies may not match, causing security gaps. e.g; Data secure in one cloud but not in another.</li>
+            <li>Uncertainty of Datat Deletion: When data is deleted from the cloud, the user cannot always be sure that all copies are permanently removed from backups or replicas. e.g; Data still exists in backups after deletion.</li>
+        </ul>
+        <h4>Trust in Cloud:</h4>
+        <ul>
+            <li>Effect of Privacy & Security Issues: If the cloud has risks like data leakage or hacking, users lose confidence in using cloud services.</li>
+            <li>Lack of Transparency: Cloud providers may outsource services to other providers. Because of this, it becomes unclear who is responsible if something goes wrong, making it difficult to fix accountability.</li>
+            <li>Pay-as-You-Go & On-Demand Concerns: Cloud services charge users based on usage. Some users aren't trust billing accuracy, which may increase costs unexpectedly.</li>
+        </ul>
+        <h4>Logical Network Perimeter:</h4>
+        <p>It defines a virtual boundary around a cloud network. It's used to isolate & protect related cloud IT resources, even if they are physically located in different places.</p>
+        <ul>
+            <li>Purpose:</li>
+            <ul>
+                <li>Keeps cloud resources secure & separate.</li>
+                <li>Controls incoming & outgoing traffic.</li>
+                <li>Works like a virtual security wall.</li>
+            </ul>
+            <p>Note: It is implemented using virtual network device instead of physical ones.</p>
+        </ul>
+        <h4>Main Components:</h4>
+        <ol>
+            <li>Virtual Firewall:</li>
+            <ul>
+                <li>Filters traffic entering & leaving the isolated network.</li>
+                <li>Blocks unauthorized access.</li>
+                <li>Allows only permitted data from the Internet.</li>
+                <p>Note: Works like traditional firewall, but in virtual form.</p>
+            </ul>
+            
+            <li>Virtual Network:</li>
+            <ul>
+                <li>Made up of virtual nodes (VMs, virtual servers).</li>
+                <li>Connected by virtual links.</li>
+                <li>Enable communication b/t cloud resources inside the perimeter.</li>
+            </ul>
+        </ol>
+
+        <h4>Virtual Server:</h4>
+        <p>A virtual server, also called a Virtual Machine (VM), is a software-based copy of a physical server.</p>
+        <p>It behaves like a real server but runs on a physical server using virtualization technology.</p>
+        <p><b>Key Points:</b> Each Virtual Server emulates (copy behavior of something else) a physical server. A single physical server can host multiple virtual servers, depending on it's capacity.</p>
+        <ul>
+            <li>Each virtual server can run:</li>
+            <ul>
+                <li>Operating System.</li>
+                <li>Application.</li>
+                <li>Cloud-based services.</li>
+            </ul>
+        </ul>
+        <p><b>Templates & Cloning:</b> To quickly create virtual servers, cloud providers use templates.</p>
+        <ul>
+            <li>It includes:</li>
+            <ul>
+                <li>OS</li>
+                <li>Installed software</li>
+                <li>Configuration</li>
+                <li>Virtual devices</li>
+                <li>Disk data</li>
+            </ul>
+            <p>Note: Using a template, new VMs can be cloned easily & quickly without reinstalling everything.</p>
+        </ul>
+        <p><b>Why Virtual Servers Are Important:</b>
+            <ul>
+                <li>Faster deployment.</li>
+                <li>Better use of hardware resources.</li>
+                <li>Easy scalling in cloud enviroment.</li>
+            </ul>
+        </p>
+        <p><b>Virtual Server (Provisioning Process):</b> A consumer can create & manage a virtual server (VM) in the cloud by following these steps:
+            <ol>
+                <li><b>Connect to Self-Service portal:</b> The consumer logs in to the cloud provider's self-service portal to request cloud resources.</li>
+                <li><b>Choose a Suitable Template:</b> The consumer selects a template that already contains:
+                    <ul>
+                        <li>OS</li>
+                        <li>Pre-Installed software</li>
+                        <li>Basic configuration</li>
+                        <p>Not: This helps in quick VM creation.</p>
+                    </ul>
+                </li>
+                <li><b>Instantiate the Virtual Server:</b> The consumer create (launches) the virtual server through the administrative portal. This process is handled by the Vitual Infrastructure Manager (VIM), which:
+                    <ul>
+                        <li>Allocates CPU, memory, storage & network resources</li>
+                        <li>Starts the VM on physical hardware</li>
+                    </ul>
+                </li>
+                <li><b>Customize the Virtual Server:</b> After creation, the comsumer can:
+                    <ul>
+                        <li>Install additional software</li>
+                        <li>Change configuration</li>
+                        <li>Manage settings</li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+        <p><b>In Simple Words: A virtual server is created by logging into the cloud portal, selecting a template, launching the VM using VIM & then customizing it as needed.</b></p>
+        <h4>Cloud Storage Device:</h4>
+        <p>A cloud storage device is a storage system designed especially for cloud computing. It is used to store data in the cloud instead of on local computers or physicall hard drives.</p>
+        <ul>
+            <p>Key Features:</p>
+            <li>Built to work efficeintly in cloud enviroments.</li>
+            <li>Storage devices can exists as virtual instances, not just physical hardware.</li>
+            <li>Storage size can be increased or decreased easily according to user needs.</li>
+            <li>Data can be accessed from anywhere using cloud storage services through Internet.</li>
+            <p>Example:
+                <ul>
+                    <li>Google Drive</li>
+                    <li>Amazon S3</li>
+                    <li>Microsoft OneDrive</li>
+                </ul>
+            </p>
+        </ul>
+        <p><b>Cloud Storage Device (Storage Units):</b> Cloud storage mechanisms support different logical units of data storage. Each unit stores data in a different way & is accessed using a specific cloud storage service & API (Application Programming Interface: is a set of rules that allows one software to talk to another software.)</p>
+        <ul>
+            <p>Types of Logical Storage Units:</p>
+            <li>Files:</li>
+            <ul>
+                <li>Data is stored as files inside folders</li>
+                <li>Similar to how data is stored on a computer.</li>
+                <li>Easy for user to understand & use.</li>
+                <p>Documents, images, videos</p>
+            </ul>
+            <li>Blocks:</li>
+            <ul>
+                <li>Data is divided into small fixed-sized blocks.</li>
+                <li>Each blocks can be accessed independently.</li>
+                <li>Mostly used by virtual machine.</li>
+                <p>Example: Disk storage for oprating systems.</p>
+            </ul>
+            <li>Datasets:</li>
+            <ul>
+                <li>Data is stored in organized collections, such as databases.</li>
+                <li>used for structured data & application.</li>
+                <p>Example: Tables in a database.</p>
+            </ul>
+            <li>Objects:</li>
+            <ul>
+                <li>Data is stored as objects, along with matadata.</li>
+                <li>Each object has a unique ID.</li>
+                <li>Best for large & unstructured data.</li>
+                <p>Example: Backups, multimedia files.</p>
+            </ul>
+        </ul>
+        <h4>Cloud Usange Monitor:</h4>
+        <p>It's a software tool that collects & processes data about how cloud-based IT resources are being used.</p>
+        <ul>
+            <li>It helps in tracking usage, analyzing performance & generating reports.</li>
+            <li>The type of monitoring & scope of data collected depends on the reproting & analysis needs.</li>
+        </ul>
+        <ul>
+            <p>Types of Cloud Usage Monitors:</p>
+            <li>Monitoring Agent:</li>
+            <ul>
+                <li>Works transparently (in the background).</li>
+                <li>Monitors data flow & communication paths.</li>
+                <li>Measures network traffic & messages</li>
+                <p>Example: Checking how much data passes b/t virtual servers.</p>
+            </ul>
+            <li>Resource Agent:</li>
+            <ul>
+                <li>Collects resources usage data for specific events like:</li>
+                <ul>
+                    <li>Starting a VM.</li>
+                    <li>Scalling resources up or down.</li>
+                    <li>Suspending or resuming a VM.</li>
+                </ul>
+                <li>Works with the Cloud Resources Management Module.</li>
+                <p>Example: Noting how much CPU/Memory a VM uses when it starts or scales.</p>
+            </ul>
+            <li>Polling Agent:</li>
+            <ul>
+                <li>Collects cloud service usage data at regular intervals.</li>
+                <li>Measures uptime/downtime or updated status of resources.</li>
+                <p>Example: Checking every 5 minutes if a cloud service is running or stopped.</p>
+            </ul>
+        </ul>
+        <h4>Resource Replication:</h4>
+        <p>It's a technique where multiple copies of IT resoruces are created to:</p>
+        <ul>
+            <li>Increase availability</li>
+            <li>Improve productivity</li>
+            <li>Reduce downtime</li>
+            <p>Virtualization is often used to replicate cloud resources like virtual machines (VMs) & services.</p>
+        </ul>
+        <p>Examples:</p>
+        <ol>
+            <li>Server Failure Recovery:</li>
+            <ul>
+                <li>If a physical server fails, the VM & its software can be replicated to another server.</li>
+                <li>This ensures the cloud service keeps running without interruption.</li>
+            </ul>
+            <li>Horizontal Scalling:</li>
+            <ul>
+                <li>When workload increases, more copies of the VM hosting a service are created.</li>
+                <li>When workload decreases, some copies can be removed.</li>
+                <li>This helps in scalling services up or down dynamically.</li>
+            </ul>
+        </ol>
+        <ul>
+            <p>Monitoring & Billing:</p>
+            <li>All replicated resources are monitored using Cloud Usage Monitor.</li>
+            <li>Replication is important for pay-as-you-go billing, as it tracks actual usage of resources.</li>
+        </ul>
+        <h4>Ready-Made Enviroment:</h4>
+        <p>It's a pre-configured cloud platform that is ready to use for developing & deploying applications. It's mostly associated with PaaS.</p>
+        <ol>
+            <li>Pre-configured PaaS Instances:</li>
+            <ul>
+                <li>Comes with ready-to-use development tools, databases & middleware.</li>
+                <li>Reduce setup time.</li>
+            </ul>
+            <li>Customizable Programming Enviroment:</li>
+            <ul>
+                <li>Developers can adapt the enviroment for their own needs.</li>
+            </ul>
+            <li>Time-Efficient Provisioning:</li>
+            <ul>
+                <li>The platform is ready to use immediatly.</li>
+                <li>No need to install software or configure servers.</li>
+            </ul>
+            <li>Multi-Tenant Support:</li>
+            <ul>
+                <li>Middleware allows multiple users to develop or deploy services simultaneously.</li>
+                <li>Useful for SaaS applications.</li>
+            </ul>
+            <li>Governance Tools:</li>
+            <ul>
+                <li>Tools are included to monitor, manage & control application.</li>
+            </ul>
+        </ol>
+        <p>Purpose:</p>
+        <ul>
+            <li>Support development & production-level deployment of cloud services.</li>
+            <li>Saves time & effort for developers.</li>
+            <li>Ensures dependentable & scalable enviroment.</li>
+        </ul>
+        <h4>Service Agreeemnt in Cloud Computing:</h4>
+        <p>According to NIST (National Institute of Standards & Technology), when a cloud consumer & provider work together, they are bound by a legal agreeement, often called a Service Agreement.</p>
+        <p>Two Types of Service Agreeemnt:</p>
+        <ol>
+            <li>Service Agreement (Legal Contract):</li>
+            <ul>
+                <li>Contains legal terms & conditions.</li>
+                <li>Define rights & responsibilities of both consumer & provider.</li>
+                <li>Covers things like: payment terms, liability, data ownership.</li>
+            </ul>
+            <li>Service Level Agreement (SLA):</li>
+            <ul>
+                <li>Contains technical promises by the provider.</li>
+                <li>Defines performance standards, e.g.:</li>
+                <ul>
+                    <li>Uptime percentage</li>
+                    <li>Response time</li>
+                    <li>Data backup & recovery</li>
+                </ul>
+                <li>Specifies remedies if provider fails to meet standards.</li>
+            </ul>
+        </ol>
+    </body>
+</html>
